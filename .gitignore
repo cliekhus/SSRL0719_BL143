@@ -1,0 +1,6 @@
+$ cat .gitignore
+/Data
+*.h5
+*.png
+/__pycache__
+/Figures
