@@ -35,7 +35,7 @@ def averageScans(BaseName, NumRuns, ploton):
             FF4 = [x+y for x,y in zip(FF4,ff4)]
         
         if ploton:
-            plt.plot(xenergy, [(w+x+y)/z for w,x,y,z in zip(ff1,ff2,ff3,i0)])
+            plt.plot(xenergy, [(x+y)/z for x,y,z in zip(ff1,ff2,i0)])
             plt.xlabel('xray energy (eV)')
             plt.title('XAS (TFY)')
             
